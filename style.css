@@ -114,8 +114,17 @@
    width: 200px;
   margin-left: 70px; ;
   }
-  
-  .estudante-todos{
-    display:grid;
-  grid-template-columns: 30% 30%;
+
+  .estudante-icon{
+    width: 35px;
+    padding: 12px 0; 
+    
   }
+  
+  estudante-todos{
+
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  
+  }
+  
