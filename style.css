@@ -114,17 +114,29 @@
    width: 200px;
   margin-left: 70px; ;
   }
+  
+  .estudante-todos{
+    display:grid;
+  grid-template-columns: 30% 30%;
+  }
 
-  .estudante-icon{
-    width: 35px;
-    padding: 12px 0; 
-    
+  .estudante-icone{
+    width: 40px;
   }
   
-  estudante-todos{
+  .estudante-div{
 
+    text-align: center;
+    padding: 65px ;
+  }
+
+  .estudantes-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-  
   }
-  
+
+  .rodape{
+    background-color: #b43131;
+align-items: center;
+height: 60px;
+  }
